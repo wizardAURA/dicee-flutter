@@ -24,8 +24,10 @@ class DicePage extends StatelessWidget {
         child: Row(children: [
           Expanded(child:
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              print('hello');            },
             child: Image.asset('images/dice1.png'
+
             ),
           ),
           ),
@@ -33,7 +35,9 @@ class DicePage extends StatelessWidget {
             width: 16,
           ),
           Expanded(child:
-          TextButton( onPressed: () {},
+          TextButton( onPressed: () {
+            print('hello');
+          },
             child: Image.asset('images/dice1.png'
             ),
           ),
